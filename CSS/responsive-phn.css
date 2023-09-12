@@ -1,0 +1,65 @@
+@media (min-width: 300px) and (max-width: 600px) {
+  /* ---- navigation bar ---- */
+
+  #nav {
+    padding: 0 0px;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+
+  .logo {
+    font-size: 20px;
+    flex: none;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .hemburger {
+    color: white;
+  }
+
+  .hemburger i {
+    padding-right: 20px;
+    font-size: 30px;
+  }
+
+  /* ---- Project ---- */
+
+  #projects {
+    padding-top: 20%;
+  }
+
+  .project-box {
+    width: 70%;
+    height: 40vh;
+  }
+
+  .p-container {
+    margin-top: 15%;
+  }
+
+  /* ---- About ---- */
+  .a-btn {
+    position: absolute;
+    left: 30%;
+    bottom: 15px;
+    cursor: pointer;
+  }
+
+  .a-main {
+    font-size: 16.5vw;
+  }
+
+  .a-main-next span {
+    font-size: 9.5vw;
+  }
+
+  /* ---- Background Image ---- */
+  .about-img img {
+    height: 100vh;
+  }
+}

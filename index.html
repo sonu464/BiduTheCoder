@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiduTheCoder</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive-phn.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;1,400;1,700;1,900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar" id="nav">
+      <div class="logo">
+        <h2>BiduTheCoder</h2>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="">Skills</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hemburger" id="hemburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Menu Bar -->
+    <div class="menubar" id="menubar">
+      <div class="menubox">
+        <ul>
+          <li>
+            <a onclick="showMenu()" href="#about">About</a>
+          </li>
+          <li>
+            <a onclick="showMenu()" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="">Skills</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- About img -->
+    <div class="about-img">
+      <img src="images/homebg.jpg" alt="" />
+    </div>
+    <!-- About Section -->
+    <section id="main-section">
+      <div id="about" class="about-text">
+        <span class="a-w">Welcome to my portfolio website!</span>
+        <h1 class="a-hey">
+          <span class="a-main">Hey , I'm</span>
+          <div class="a-main-next">
+            <span>Frontend Devloper</span>
+          </div>
+        </h1>
+
+        <p>
+          Building a successful product is a challenge. I am highly energetic in
+          user experience design, interfaces and web development.
+        </p>
+
+        <div class="a-btn">
+          <!-- <a href="#" class="custom-btn"> Download Resume</a> -->
+          <a href="#contact" class="custom-btn">
+            Get a free quote
+            <i class="fa-solid fa-down-long"></i>
+          </a>
+        </div>
+      </div>
+      <div id="projects">
+        <div id="p-name">
+          <h1>Projects</h1>
+        </div>
+        <div class="p-container" id="project-container"></div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/65ed7860c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Script/gsap-script.js"></script>
+    <script src="Script/script.js"></script>
+  </body>
+</html>
