@@ -50,7 +50,8 @@ gsap.from("#contact-heading h1", {
   },
 });
 
-gsap.to("#form", {
+
+/* gsap.to("#form", {
   backgroundColor: "#b75499",
   scrollTrigger: {
     trigger: "#projects",
@@ -60,4 +61,4 @@ gsap.to("#form", {
     end: "top -70%",
     scrub: 2,
   },
-});
+}); */
