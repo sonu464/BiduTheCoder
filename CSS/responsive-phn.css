@@ -38,6 +38,10 @@
     height: 45vh;
   }
 
+  .p-info {
+    height: 40%;
+  }
+
   .p-container {
     margin-top: 15%;
   }
@@ -61,5 +65,16 @@
   /* ---- Background Image ---- */
   .about-img img {
     height: 100vh;
+  }
+
+  /* ---- Contact Section ---- */
+  .contact {
+    height: 100vh;
+    padding-top: 20%;
+    justify-content: start;
+  }
+
+  .form {
+    margin-top: 15%;
   }
 }
