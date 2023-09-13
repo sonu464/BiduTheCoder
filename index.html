@@ -12,6 +12,7 @@
     />
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar" id="nav">
       <div class="logo">
         <h2>BiduTheCoder</h2>
@@ -28,7 +29,7 @@
             <a href="">Skills</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -49,10 +50,10 @@
             <a onclick="showMenu()" href="#projects">Projects</a>
           </li>
           <li>
-            <a href="">Skills</a>
+            <a onclick="showMenu()" href="">Skills</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a onclick="showMenu()" href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -62,8 +63,8 @@
     <div class="about-img">
       <img src="images/homebg.jpg" alt="" />
     </div>
-    <!-- About Section -->
     <section id="main-section">
+      <!-- About Section -->
       <div id="about" class="about-text">
         <span class="a-w">Welcome to my portfolio website!</span>
         <h1 class="a-hey">
@@ -86,11 +87,34 @@
           </a>
         </div>
       </div>
+      <!-- Project Section -->
       <div id="projects">
         <div id="p-name">
           <h1>Projects</h1>
         </div>
         <div class="p-container" id="project-container"></div>
+      </div>
+
+      <!-- Contact Section -->
+      <div id="contact" class="contact">
+        <div class="contact-heading" id="contact-heading">
+          <h1>CONTACT US</h1>
+        </div>
+        <form action="" id="form" class="form">
+          <div class="name">
+            <label for="">Name</label>
+            <input type="text" />
+          </div>
+          <div class="name email">
+            <label for="">E-mail</label>
+            <input type="email" />
+          </div>
+          <div class="name">
+            <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <button class="submitbtn">Submit</button>
+        </form>
       </div>
     </section>
 
