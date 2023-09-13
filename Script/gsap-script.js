@@ -25,7 +25,7 @@ gsap.to("#main-section", {
 });
 
 gsap.from("#p-name h1", {
-  x: 500,
+  x: 600,
   duration: 2,
   scrollTrigger: {
     trigger: "#p-name h1",
@@ -34,5 +34,30 @@ gsap.from("#p-name h1", {
     start: "top 75%",
     end: "top 70%",
     scrub: 3,
+  },
+});
+
+gsap.from("#contact-heading h1", {
+  x: -600,
+  duration: 2,
+  scrollTrigger: {
+    trigger: "#contact-heading h1",
+    scroller: "body",
+    // markers:true,
+    start: "top 75%",
+    end: "top 70%",
+    scrub: 3,
+  },
+});
+
+gsap.to("#form", {
+  backgroundColor: "#b75499",
+  scrollTrigger: {
+    trigger: "#projects",
+    scroller: "body",
+    // markers: true,
+    start: "top -60%",
+    end: "top -70%",
+    scrub: 2,
   },
 });
