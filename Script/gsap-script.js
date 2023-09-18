@@ -38,8 +38,8 @@ gsap.from("#p-name h1", {
 });
 
 gsap.from("#contact-heading h1", {
-  x: -600,
-  duration: 2,
+  y: 50,
+  duration: 1,
   scrollTrigger: {
     trigger: "#contact-heading h1",
     scroller: "body",
@@ -49,16 +49,3 @@ gsap.from("#contact-heading h1", {
     scrub: 3,
   },
 });
-
-
-/* gsap.to("#form", {
-  backgroundColor: "#b75499",
-  scrollTrigger: {
-    trigger: "#projects",
-    scroller: "body",
-    // markers: true,
-    start: "top -60%",
-    end: "top -70%",
-    scrub: 2,
-  },
-}); */
