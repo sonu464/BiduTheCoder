@@ -15,7 +15,14 @@ const projects = [
     img: "projectImg/bookstore.png",
     decs: "This Project is based on HTML CSS and JAVASCRIPT ",
     link: "https://bestbooksforyou.netlify.app",
-    github: "https://github.com/sonu464/E-Commerce",
+    github: "https://github.com/sonu464/Book-Ecommerce",
+  },
+  {
+    projectName: "BiduClothes",
+    img: "projectImg/biduclothes.png",
+    decs: "This Project is based on Reactjs ",
+    link: "https://biduclothes.netlify.app",
+    github: "https://github.com/sonu464/react-cloth-ecommerce",
   },
 ];
 
@@ -29,14 +36,16 @@ const createProjectBox = () => {
                    <img src=${item.img} alt="" />
               </div>
            <div class="p-info">
-             <h2>BestBookForYou</h2>
+             <h2>${item.projectName}</h2>
              <p>${item.decs}</p>
-             <button class="livebtn">
-               <a href=${item.link}>Live preview</a>
-             </button>
-             <button class="codebtn">
-               <a href=${item.github}>code</a>
-             </button>
+            <div class="projectButton">
+            <button class="livebtn">
+            <a href=${item.link}>Live preview</a>
+            </button>
+            <button class="codebtn">
+            <a href=${item.github}>code</a>
+            </button>
+            </div>
            </div>
     `;
     projectContainer.appendChild(projectBox);

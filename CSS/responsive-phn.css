@@ -35,15 +35,16 @@
 
   .project-box {
     width: 70%;
-    height: 45vh;
-  }
-
-  .p-info {
-    height: 40%;
+    transition: all ease 1s;
   }
 
   .p-container {
     margin-top: 15%;
+    background-color: transparent;
+  }
+
+  .p-img {
+    height: 200px;
   }
 
   /* ---- About ---- */
@@ -65,6 +66,45 @@
   /* ---- Background Image ---- */
   .about-img img {
     height: 100vh;
+  }
+
+  /* ---- skills Section ---- */
+  .skills {
+    flex-direction: column;
+  }
+
+  .skillContainer h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .skillContainer p {
+    font-size: 0.8rem;
+    margin: 5px 0;
+  }
+
+  .skillPic h1 {
+    width: 20px;
+    height: 20px;
+    font-size: 0.4rem;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .skillPic {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #project-main-para {
+    color: #ffffff3d;
+    margin-top: 10px;
+    font-size: 1.2rem;
   }
 
   /* ---- Contact Section ---- */
