@@ -292,7 +292,7 @@ html {
   color: white;
 }
 
-/* -------------------- Project Section ------------------- */
+/* ---------------- Project Section --------------- */
 
 #projects {
   width: 100%;
@@ -339,11 +339,8 @@ html {
   border-radius: 5px;
   margin: 12px;
   padding: 15px 10px;
-}
-
-.project-box:hover {
-  box-shadow: -15px -15px 5px -3px white;
-}
+box-shadow: -15px -15px 5px -3px white;
+}
 
 .p-img {
   width: 100%;
