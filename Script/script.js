@@ -27,7 +27,7 @@ const projects = [
   { 
      projectName: "Reservation Web", 
      img: "", 
-     decs: "This Project is based on Reactjs", 
+     decs: "This Project is based on Reactjs clone of booking app", 
      link: "https://reservationweb.netlify.app", 
      github: "https://github.com/sonu464/reservation-app", 
    },
