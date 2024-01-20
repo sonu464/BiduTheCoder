@@ -24,6 +24,15 @@ const projects = [
     link: "https://biduclothes.netlify.app",
     github: "https://github.com/sonu464/react-cloth-ecommerce",
   },
+  { 
+     projectName: "Reservation Web", 
+     img: "", 
+     decs: "This Project is based on Reactjs", 
+     link: "https://reservationweb.netlify.app", 
+     github: "https://github.com/sonu464/", 
+   },
+
+
 ];
 
 const createProjectBox = () => {
