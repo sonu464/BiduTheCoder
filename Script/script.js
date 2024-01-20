@@ -26,10 +26,10 @@ const projects = [
   },
   { 
      projectName: "Reservation Web", 
-     img: "", 
+     img: "projectImg/biduclothes.png", 
      decs: "This Project is based on Reactjs", 
      link: "https://reservationweb.netlify.app", 
-     github: "https://github.com/sonu464/", 
+     github: "https://github.com/sonu464/reservation-app", 
    },
 
 
